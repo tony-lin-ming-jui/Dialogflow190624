@@ -1,0 +1,18 @@
+Dialogflow-test1
+首先再Dialogflow的Fulfillment的webhook url 輸入ngrok的網址 要/webhook
+再LINE的地方加入Dialogflow的Integrations的網址並且start它
+但是這樣好像就不能使用linebotsdk 製作表單，傳送圖片之纇的東西
+
+useapiai
+pip install apiai
+
+開啟Enable beta features and APIS
+點齒輪到General
+取得CLIENT_ACCESS_TOKEN
+import apiai
+
+Action and parameters 非常重要
+邏輯判斷的先後順序在這裡調整
+
+line上面放本地端的ngrok
+已做好的功能 發票 油價 記帳 新聞 電影 

@@ -1,0 +1,21 @@
+ngrok http -host-header "localhost:9000" 9000  
+
+
+
+正確的
+https://github.com/line/line-bot-sdk-python#api
+
+chatbase API key:19a4aa7c-783e-4924-87d3-c4ded9b0d03b
+
+http://at.line.me/tw/
+
+學校電腦改網址改停班停課改天氣
+
+時間用法 http://blog.alarmchang.com/?p=230
+資料庫重建:
+
+create database line_db charset utf8;
+使用 test-resql 的 line_db 再創一個voice資料表
+
+19bc8446.ngrok.io/callback
+
